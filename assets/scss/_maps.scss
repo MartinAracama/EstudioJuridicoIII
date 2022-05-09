@@ -1,0 +1,17 @@
+$redes: (
+    "Linkedin": #fff,
+    "Facebook": #fff,
+    "Instagram": #fff,
+);
+
+.botonLinkedin {
+    color: map-get($map: $redes, $key: Linkedin);
+}
+
+.botonFacebook {
+    color: map-get($map: $redes, $key: Facebook);
+}
+
+.botonInstagram {
+    color: map-get($map: $redes, $key: Instagram);
+}

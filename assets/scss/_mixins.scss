@@ -1,0 +1,16 @@
+@mixin fontSize($size, $weigth) {
+    font-size: $size;
+    font-weight: $weigth;
+}
+
+.letraParrafo {
+    @include fontSize(.8rem, 500)
+}
+
+.letraSubtitulo {
+    @include fontSize(1rem, 600)
+}
+
+.letraTitulo {
+    @include fontSize(1.2rem, 600)
+}
